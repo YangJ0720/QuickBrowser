@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<!--    <ImageView-->
+<!--        android:layout_width="50dp"-->
+<!--        android:src="@android:drawable/ic_menu_share"-->
+<!--        android:layout_height="50dp"/>-->
+
+<!--    <EditText-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_height="match_parent"/>-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="50dp"-->
+<!--        android:src="@android:drawable/ic_menu_share"-->
+<!--        android:layout_height="50dp"/>-->
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_red_light"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
