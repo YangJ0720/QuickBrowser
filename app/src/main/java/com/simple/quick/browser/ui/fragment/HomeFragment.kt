@@ -35,9 +35,9 @@ class HomeFragment : Fragment() {
             HomeNavigationModel("hao123上网之家", "https://www.hao123.com"),
             HomeNavigationModel("百度一下", "https://www.baidu.com"),
             HomeNavigationModel("凤凰网", "https://i.ifeng.com"),
+            HomeNavigationModel("哔哩哔哩", "https://m.bilibili.com"),
             HomeNavigationModel("hao123上网之家", "https://www.hao123.com"),
-            HomeNavigationModel("hao123上网之家", "https://www.hao123.com"),
-            HomeNavigationModel("空白页", ""),
+            HomeNavigationModel("空白页", "http://10.10.30.15:8080/html/index.html"),
         )
     }
 }

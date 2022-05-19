@@ -4,19 +4,14 @@
     android:layout_height="wrap_content" >
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@android:drawable/ic_menu_search" />
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_search" />
 
     <EditText
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:background="@null"
         android:layout_weight="1" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@android:drawable/ic_menu_share" />
 
 </merge>

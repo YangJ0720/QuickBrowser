@@ -49,7 +49,8 @@ class HomeBrowserContainerView : FrameLayout, TabBrowserCallback {
     }
 
     fun clearTabBrowser() {
-
+        this.mIndex = 0
+        addTabBrowser(TabBrowser(context))
     }
 
     fun getTabBrowserList(): List<TabBrowser> {

@@ -3,40 +3,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <ImageView
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="后退" />
+        android:padding="12dp"
+        android:src="@drawable/ic_bottom_nav_left" />
 
-    <TextView
+    <ImageView
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="前进" />
+        android:padding="12dp"
+        android:src="@drawable/ic_bottom_nav_right" />
 
-    <TextView
+    <ImageView
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="主页" />
+        android:padding="12dp"
+        android:src="@drawable/ic_bottom_nav_home" />
 
-    <TextView
-        android:id="@+id/tv_home_bottom_navigation_switch"
+    <ImageView
+        android:id="@+id/iv_home_bottom_navigation_switch"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="切换" />
+        android:padding="12dp"
+        android:src="@drawable/ic_bottom_nav_home" />
 
-    <TextView
+    <ImageView
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="菜单" />
+        android:padding="12dp"
+        android:src="@drawable/ic_bottom_nav_menu" />
 
 </merge>

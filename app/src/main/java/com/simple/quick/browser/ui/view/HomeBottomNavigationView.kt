@@ -7,16 +7,18 @@ import android.view.View
 import android.widget.LinearLayout
 import com.simple.quick.browser.R
 
-class HomeBottomNavigationView: LinearLayout {
+class HomeBottomNavigationView : LinearLayout {
 
     private var mCallback: Callback? = null
 
     constructor(context: Context) : super(context) {
         initialize(context)
     }
+
     constructor(context: Context, attrs: AttributeSet?) : super(context, attrs) {
         initialize(context)
     }
+
     constructor(context: Context, attrs: AttributeSet?, defStyleAttr: Int) : super(
         context,
         attrs,
@@ -29,7 +31,7 @@ class HomeBottomNavigationView: LinearLayout {
         orientation = HORIZONTAL
         val inflater = LayoutInflater.from(context)
         val view = inflater.inflate(R.layout.view_home_bottom_navigation, this)
-        view.findViewById<View>(R.id.tv_home_bottom_navigation_switch).setOnClickListener {
+        view.findViewById<View>(R.id.iv_home_bottom_navigation_switch).setOnClickListener {
             this.mCallback?.switch()
         }
     }
